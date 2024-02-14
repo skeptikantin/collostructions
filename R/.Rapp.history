@@ -1,0 +1,18 @@
+library(vcd)
+data(UCBAdmissions)
+library(cfa)
+cfa(UCBAdmissions)
+unpivot <- function(x){
+y <- x[rep(row.names(x), x[, length(x)]), 1:length(x)-1]
+rownames(y) <- NULL
+return(y)
+}
+unpivot(UCBAdmissions)
+head(UCBAdmissions)
+rownames(UCBAdmissions)
+UCBAdmissions
+47000/60
+783/24
+1389.96-1625.4
+2066/2548
+load("/Users/suz/GoogleDrive/Artikel/15_contamination/Contamination modeling dec15.RData")

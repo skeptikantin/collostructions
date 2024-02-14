@@ -1,0 +1,16 @@
+Package: collostructions
+Type: Package
+Title: An R Implementation for the Family of Collostructional Methods
+Version: 0.2.0
+Date: 2021-02-09
+Author: Susanne Flach
+Maintainer: Susanne Flach <susanne.flach@es.uzh.ch>
+Description: Functions and example data for collostructional or collocational analyses.
+License: GPL-2
+Depends:
+    R(>= 3.0.0),
+    stats
+LazyData: TRUE
+Encoding: UTF-8
+RoxygenNote: 7.1.1
+URL: www.sfla.ch

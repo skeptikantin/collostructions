@@ -3,7 +3,7 @@ collex.dist <- function(x, am = "logl", raw = FALSE,
                         reverse = FALSE, decimals = 5,
                         threshold = 1, cxn.freqs = NULL, str.dir = FALSE, p.fye = FALSE, delta.p = FALSE) {
 
-  if (class(x) == "list") {
+  if (is.list(x)) {
     x <- as.data.frame(x)
     names(x) <- names(x[[1]])
     rownames(x) <- NULL

@@ -1,3 +1,4 @@
+#' @export
 # Functions for calculations of association measures
 logl.am <- function(x) {
   logl <- sum(logw0(x[1]/x[5]) * x[1],

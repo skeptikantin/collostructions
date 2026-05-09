@@ -6,7 +6,7 @@ collex.covar <- function(x, am = "logl", raw = TRUE, all = FALSE,
                          reverse = FALSE, decimals = 5,
                          str.dir = FALSE, p.fye = FALSE, delta.p = FALSE) {
 
-  if (class(x) == "list") {
+  if (is.list(x)) {
     z <- as.data.frame(x)
     names(z) <- names(x[[1]])
     rownames(z) <- NULL

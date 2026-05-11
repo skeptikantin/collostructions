@@ -2,9 +2,9 @@
 
 The R package {collostructions} is an R implementation for collostructional analysis. The package contains functions to perform Simple, Distinctive, and Co-Varying Collexeme Analyses, as well as some useful functions for transformation and the creation of frequency lists. There are sample data sets for all functions with documentation.
 
-The current version is v.0.2.1 (09-May-2026) that is compatible with all R4.x versions on all major operating systems. If you spot an error, [drop me a line](mailto:vorzimmer@sfla.ch) or use the issues section here and I'll fix it asap.
+The current version is v.0.2.2 (11-May-2026) that is compatible with all R4.x versions on all major operating systems. If you spot an error, [drop me a line](mailto:vorzimmer@sfla.ch) or use the issues section here and I'll fix it asap.
 
-**Binary versions are no longer on my website. Use the installation instructions below. If you prefer to use the method used in the installation tutorial video, download the package according to your OS via the "Releases" tab on the right.**
+**Binary versions are no longer on my website. Use the installation instructions below. If you prefer to use the method used in the installation tutorial video, download the package according to your OS via the "Releases" tab on the right. NOTE: the binary releases might not always be the latest version - they update with significant changes to the code.**
 
 ### Installation
 

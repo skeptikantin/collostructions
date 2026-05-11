@@ -1,4 +1,4 @@
-#' @export
+#' @noRd
 # Functions for calculations of association measures
 logl.am <- function(x) {
   logl <- sum(logw0(x[1]/x[5]) * x[1],
@@ -69,6 +69,7 @@ z.score.cor.am <- function(x) {
   }
   res = (x[1] - x[5]) / sqrt(x[5])
 }
+#' @export
 t.score.am <- function(x) {
   res = (x[1] - x[5]) / sqrt(x[1])
 }
@@ -127,6 +128,7 @@ pmi <- function(x) {
 }
 
 # Adds 0.5 to the observed value of unattested combinations to avoid -Inf
+#' @export
 t.val <- function(x) {
   if (x[1] > 0) {
     (x[1]-x[2])/sqrt(x[1])
@@ -181,6 +183,7 @@ p.adjust.siglev <- function(x) {
 logw0 <- function(x, base = exp(1)) {
   ifelse (x == 0, 0, log(x, base))
 }
+#' @export
 exp.val <-  function(x) {
   n <- sum(x)
   x <- matrix(c(x[1], x[2], x[3], x[4]), nrow = 2, byrow = F)

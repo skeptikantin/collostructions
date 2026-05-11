@@ -6,7 +6,6 @@ collex <- function(x, corpsize = 1e+08L, am = "logl", reverse = FALSE,
 
   # if looping over list of dataframes, input data is of class list
   # which needs to be converted to class dataframe
-  #if (class(x) == "list") {
   if (is.list(x)) {
     x <- as.data.frame(x)
     names(x) <- names(x[[1]])

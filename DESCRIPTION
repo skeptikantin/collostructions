@@ -1,7 +1,7 @@
 Package: collostructions
 Type: Package
 Title: An R Implementation for the Family of Collostructional Methods
-Version: 0.2.1
+Version: 0.2.2
 Date: 2026-05-09
 Author: Susanne Flach
 Maintainer: Susanne Flach <vorzimmer@sfla.ch>
